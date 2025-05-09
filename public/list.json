@@ -1,0 +1,78 @@
+[
+
+    {
+        "id":1,
+        "Name":"Story Book",
+        "title":"To write a good story book summary, begin with the title and author, introduce the main characters and setting, then outline the plot, highlighting key events and the climax. ",
+        "price": 0.00 , 
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+
+    {
+        "id":2,
+        "Name":"Music Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 100 , 
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+
+    {
+        "id":3,
+        "Name":"Comedy Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 200 , 
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+    {
+        "id":4,
+        "Name":"Sports Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 500 , 
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+    {
+        "id":5,
+        "Name":"Foods Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 0.00 , 
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+    {
+        "id":6,
+        "Name":"Drama Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 100.00 , 
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+    {
+        "id":7,
+        "Name":"Drama Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price": 0.00 , 
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+    {
+        "id":8,
+        "Name":"Engineering Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price":  450.00 ,
+        "category":"Paid",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    },
+
+    {
+        "id":9,
+        "Name":"history Book",
+        "title":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien.",
+        "price":  0.0 ,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?ga=GA1.1.1693676524.1732481576&semt=ais_hybrid"
+    }
+]
