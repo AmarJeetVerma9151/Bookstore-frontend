@@ -42,7 +42,7 @@ function Admin() {
     const data = { Name, title, price, category, Image };
 
     try {
-      const response = await axios.post('http://localhost:1090/book/addbook', data);
+      const response = await axios.post('https://bookstore-backend-ru0v.onrender.com/book/addbook', data);
       toast.success('Book added successfully', {
         position: 'top-right',
         theme: 'dark',

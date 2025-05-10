@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 function Cards({ item }) {
   const handleDelete = async (Id) => {
     try {
-      const res = await axios.delete(`http://localhost:1090/book/deletebook/${Id}`);
+      const res = await axios.delete(`https://bookstore-backend-ru0v.onrender.com/book/deletebook/${Id}`);
       const data = res.data;
       if (data) {
         toast.success("Book deleted successfully!");

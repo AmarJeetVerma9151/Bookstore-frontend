@@ -23,7 +23,7 @@ function Contact() {
       Message: MessageRef.current.value
     }
 
-    const res = await axios.post("http://localhost:1090/contact/usercontact", obj)
+    const res = await axios.post("https://bookstore-backend-ru0v.onrender.com/contact/usercontact", obj)
     try {
       const data = res.data
       console.log(data)

@@ -44,7 +44,7 @@ console.log(obj)
       return
     };
     
-    const res = await axios.post("http://localhost:1090/user/singup", obj)
+    const res = await axios.post("https://bookstore-backend-ru0v.onrender.com/user/singup", obj)
       .then((res) => {
         console.log(res.data)
         if (res.data) {
@@ -52,7 +52,7 @@ console.log(obj)
         }
         dispatch(SetState(res.data.createUser))
         
-        // localStorage.setItem("user", JSON.stringify(res.data.createUser))
+      
       })
       .catch((error) => {
         if (error.response) {

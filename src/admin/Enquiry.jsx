@@ -7,11 +7,11 @@ function Enquiry() {
  
 
    const getallenquiry  = async()=>{
-    var res = await axios.get("http://localhost:1090/contact/getcontact")
-    // console.log(res.data)
+    var res = await axios.get("https://bookstore-backend-ru0v.onrender.com/contact/getcontact")
+  
     var allenquiry  = res.data.contact;
     setgetcontact(allenquiry)
-  //  console.log(allenquiry)
+
    }
    
    
@@ -22,7 +22,6 @@ useEffect(()=>{
 
 
 
-  //  console.log(getcontact)
 
 
   return (

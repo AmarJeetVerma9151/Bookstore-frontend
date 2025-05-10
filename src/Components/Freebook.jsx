@@ -10,7 +10,7 @@ function Freebook() {
 
   const getfreeAllbooks = async () => {
     try {
-      const data = await axios.get("http://localhost:1090/book/freebooks");
+      const data = await axios.get("https://bookstore-backend-ru0v.onrender.com/book/freebooks");
       console.log(data.data.freebook);
       setFreebook(data.data.freebook);
     } catch (error) {

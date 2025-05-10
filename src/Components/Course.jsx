@@ -12,7 +12,7 @@ function Course() {
 
   const getbook = async () => {
     try {
-      const res = await axios.get("http://localhost:1090/book/paidbooks");
+      const res = await axios.get("https://bookstore-backend-ru0v.onrender.com/book/paidbooks");
       console.log(res.data);
       setBook(res.data?.paidbook || []);
     } catch (error) {
