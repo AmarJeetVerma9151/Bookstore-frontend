@@ -1,8 +1,8 @@
-import React from 'react'
+
 import Navbar from '../Components/Navbar'
 import FrontPage from '../Components/FrontPage'
 import Freebook from '../Components/Freebook'
-import Footer from '../Components/Footer'
+import Footer from '../Components/Footer.jsx'
 
 function Home() {
   
