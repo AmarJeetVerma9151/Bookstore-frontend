@@ -8,7 +8,7 @@ function Cards({ item }) {
   const handleDelete = async (Id) => {
 
     const useData=useSelector((state) => state.user)
-  const user = useData.user?.role;
+        user = useData.user?.role;
     try {
       const res = await axios.delete(`https://bookstore-backend-ru0v.onrender.com/book/deletebook/${Id}`);
       const data = res.data;
