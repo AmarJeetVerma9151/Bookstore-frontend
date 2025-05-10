@@ -8,7 +8,7 @@ function Cards({ item }) {
   const handleDelete = async (Id) => {
 
     const useData=useSelector((state) => state.user)
-       const user = useData.user?.role;
+       const user = useData?.user?.role;
        console.log(user)
         
     try {
@@ -61,7 +61,7 @@ function Cards({ item }) {
               <button className="px-4 py-1 text-sm text-white bg-pink-500 rounded-full hover:bg-pink-400 transition">
                 Buy Now
               </button>
-              {user=="admin"&&<button
+              {role=="admin"&&<button
                 onClick={() => handleDelete(item._id)}
                 className="px-4 py-1 text-sm text-white bg-red-600 rounded-full hover:bg-red-400 transition"
               >
