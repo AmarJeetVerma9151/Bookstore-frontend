@@ -2,8 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import FrontPage from '../Components/FrontPage'
 import Freebook from '../Components/Freebook'
-import Footer from '../Components/footer'
-import axios from 'axios'
+import Footer from '../Components/Footer'
 
 function Home() {
   
