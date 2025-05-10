@@ -66,7 +66,8 @@ function Cards({ item }) {
                 className="px-4 py-1 text-sm text-white bg-red-600 rounded-full hover:bg-red-400 transition"
               >
                 Delete
-              </button>            }</div>
+              </button>}
+              </div>
           </div>
         </div>
       </motion.div>
