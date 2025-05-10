@@ -5,11 +5,13 @@ import toast from 'react-hot-toast';
 import { useSelector } from 'react-redux';
 
 function Cards({ item }) {
-  const handleDelete = async (Id) => {
-
-    const useData=useSelector((state) => state.user)
+ const useData=useSelector((state) => state.user)
        const user = useData?.user?.role;
        console.log(user)
+
+  const handleDelete = async (Id) => {
+
+   
         
     try {
       const res = await axios.delete(`https://bookstore-backend-ru0v.onrender.com/book/deletebook/${Id}`);
